@@ -10,13 +10,15 @@ header {
   display: flex;
   justify-content: left;
   align-items: center;
-  padding: 20px;
+  padding: 10px;
   background-color: #64748b;
 }
 
 .logo {
-  width: 100px;
   height: auto;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
 }
 
 nav ul {
@@ -45,4 +47,13 @@ main {
 
 a {
   color: #e2e8f0;
+}
+
+
+.divider {
+  width: 2px;
+  height: 40px;
+  margin-left: 20px;
+  background-color: rgba(71, 85, 105, 0.5);
+  border-radius: 1000000px;
 }
