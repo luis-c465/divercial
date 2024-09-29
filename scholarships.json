@@ -1,0 +1,90 @@
+[
+  {
+    "name": "FIU Gold and Blue",
+    "type": "distributed sum",
+    "category": "merit",
+    "value": "$1000 to $12000 for Florida residents, 4,000 to $24,000 for non-Florida residents",
+    "about": "first year students only",
+    "link": "https://admissions.fiu.edu/cost-and-aid/scholarships/"
+  },
+  {
+    "name": "FIU College Board Recognition Program Scholarship ",
+    "type": "full ride",
+    "category": "merit",
+    "value": "100% Undergraduate tuition and fees, plus a book stipend",
+    "about": "includes $1,000 meal plan stipend per semester",
+    "link": "https://admissions.fiu.edu/cost-and-aid/scholarships/"
+  },
+  {
+    "name": "FIU Gold and Blue (Transferring Students)",
+    "type": "distributed sum",
+    "category": "merit",
+    "value": "$1,000 to $12,000 for Florida residents, $4,000 to $24,000 for non-Florida residents",
+    "about": "includes $1,000 meal plan stipend per semester",
+    "link": "https://admissions.fiu.edu/cost-and-aid/scholarships/"
+  },
+  {
+    "name": "FIU Presidential Merit Scholarship",
+    "type": "full ride",
+    "category": "merit",
+    "value": "Florida Resident-100% Undergraduate tuition and fees, plus a book stipend. Otherwise see link",
+    "about": "Non-Resident- Out-of-state, merit-based tuition reduction",
+    "link": "https://scholarships.fiu.edu/browse-scholarships/merit-scholarships/index.html#tab-N10344-1"
+  },
+  {
+    "name": "FIU College Board Recognition Program Scholarship",
+    "type": "full ride",
+    "category": "merit",
+    "value": "Florida Resident-100% Undergraduate tuition and fees, plus a book stipend and $1,000 meal stipend",
+    "about": "Non-Resident- Out-of-state, merit-based tuition reduction",
+    "link": "https://scholarships.fiu.edu/browse-scholarships/merit-scholarships/index.html#tab-N10344-1"
+  },
+  {
+    "name": "RaiseMe",
+    "type": "distributed sum",
+    "category": "merit",
+    "link": "https://www.raise.me/",
+    "value": "max of $10,000",
+    "about": "Only applies if the university financial aid is less than RaiseMe, otherwise RaiseMe covers the difference between the university aid and RaiseMe. Think of RaiseMe giving a minimum amount of aid to students."
+  },
+  {
+    "name": "Rosita Gedeon Scholarship",
+    "type": "sum",
+    "category": "step",
+    "link": "https://fiu.academicworks.com/opportunities/9221",
+    "value": "$1000",
+    "about": "Haitian American descent, an individual of Haitian ancestry who, at the time of application, is an individual who lives in the United States and is either a United States citizen of has permanent resident status in the United States."
+  },
+  {
+    "name": "Santander Bank Scholarship",
+    "type": "sum",
+    "category": "step",
+    "link": "https://fiu.academicworks.com/opportunities/17264",
+    "value": "varies",
+    "about": "Full time student, minimum 3.0 GPA"
+  },
+  {
+    "name": "Milam Family First Generation Scholarship",
+    "type": "sum",
+    "category": "step",
+    "link": "https://fiu.academicworks.com/opportunities/18187",
+    "value": "$2000",
+    "about": "First generation in family to get a college degree"
+  },
+  {
+    "name": "Spoken Word Scholarship",
+    "type": "sum",
+    "category": "step",
+    "link": "https://fiu.academicworks.com/opportunities/19145",
+    "value": "3000",
+    "about": ""
+  },
+  {
+    "name": "Chevron First Generation Scholarship",
+    "type": "sum",
+    "category": "step",
+    "link": "https://fiu.academicworks.com/opportunities/19148",
+    "value": "3000",
+    "about": ""
+  }
+]
