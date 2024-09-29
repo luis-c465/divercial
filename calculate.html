@@ -6,8 +6,9 @@
   <title>Divercial</title>
 
   <link rel="stylesheet" href="styles.css" >
-  <link rel="stylesheet" href="index.css" >
+  <link rel="stylesheet" href="calculate.css" >
   <link rel="icon" type="image/png" href="icon.png">
+  <script src="calculate.js" defer async></script>
   <script src="main.js" defer async></script>
 
 </head>
@@ -21,17 +22,50 @@
     <nav style="width: 100%;">
       <ul style="width: 100%;">
         <li><a href="/">Home</a></li>
-        <li><a href="/scholarships">Scholarships</a></li>
-        <li><a href="/credit">Credit</a></li>
-        <li><a href="/insurance">Insurance</a></li>
-        <li><a href="/investing">Investing</a></li>
+        <li><a href="/divercial/scholarships">Scholarships</a></li>
+        <li><a href="/divercial/credit">Credit</a></li>
+        <li><a href="/divercial/insurance">Insurance</a></li>
+        <li><a href="/divercial/investing">Investing</a></li>
         <li style="margin-left: auto; padding-right: 50px;"><a href="/calculate">Calculate Your Finances</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
+    <div id="outBox">
+        <h1>Calulate Recommended Saving Strategy</h1>
+        <div style="display: flex; width: 100%; padding-left: 20px; padding-right: 20px;">
+            <div>
+                <h3>Monthly Expenses (Non-School)</h3>
+                <input type="number" id="expenses">
+            </div>
+            <div style="float: right; margin-left: auto; padding-right: 40px; width: 300px;">
+                <h3>Monthly Earnings (Non-Scholarship)</h3>
+                <input type="number" id="earnings">
+            </div>
+        </div>
+        <div style="display: flex; width: 100%; padding-left: 20px; padding-right: 20px;">
+            <div>
+                <h3>Semesterly Tuition</h3>
+                <input type="number" id="scholarshipExpenses">
+            </div>
+            <div style="float: right; margin-left: auto; padding-right: 40px; width: 300px;">
+                <h3>Semesterly Scholarship Earnings</h3>
+                <input type="number" id="scholarshipEarnings">
+            </div>
+        </div>
+        <div style="display: flex; width: 100%; padding-left: 20px; padding-right: 20px;">
+            <div>
+                <h3>Amount in Savings Account</h3>
+                <input type="number" id="savings">
+            </div>
+        </div>
+        <button id="submit" style="margin-left: 20px; width: 100px; height: 40px; background-color: white; border-radius: 10px; margin-top: 40px; margin-bottom: 40px;">
+            Calculate!</button>
+        <div style="padding-left: 20px; padding-right: 20px; color: white" id="answer">
 
+        </div>
+    </div>
   </main>
 
 </body>

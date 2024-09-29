@@ -1,0 +1,33 @@
+#outBox {
+    width: 700px;
+    height: 700px;
+    background: linear-gradient(var(--myColor1), var(--myColor2));
+    transition: --myColor1 3s, --myColor2 3s;
+    border-radius: 7%;
+    margin-top: 40px;
+    border: black solid 2px;
+}
+
+@property --myColor1 {
+    syntax: '<color>';
+    initial-value: lightblue;
+    inherits: false;
+  }
+  
+@property --myColor2 {
+  syntax: '<color>';
+  initial-value: darkblue;
+  inherits: false;
+}
+
+#outBox:hover {
+    border-color: black;
+    border: white solid 2px;
+    --myColor1: aqua;
+    --myColor2: blue;
+}
+
+h1 {
+    padding: 10px;
+    text-align: center;
+}
